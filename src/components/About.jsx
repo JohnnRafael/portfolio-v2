@@ -1,6 +1,7 @@
 import kcoopLogo from '../assets/logo-kcoop.png'
 import colegioLogo from '../assets/teresa.jpg'
 import amaLogo from '../assets/ama.jpg'
+import JohnResume from '../assets/John Tugano.pdf'
 
 function About({ darkMode }) {
   const skills = [
@@ -146,7 +147,7 @@ function About({ darkMode }) {
             {/* Download Resume Button */}
             <div>
                 
-                <a href="/src/assets/John Tugano.pdf"download className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full transition duration-300">
+                <a href={JohnResume} download className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-8 rounded-full transition duration-300">
                     Download Resume
                 </a>
                 {/* <p className={`text-xs mt-3 ${darkMode ? 'text-gray-500' : 'text-gray-400'}`}>
