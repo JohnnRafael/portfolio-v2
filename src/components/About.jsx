@@ -1,3 +1,7 @@
+import kcoopLogo from '../assets/logo-kcoop.png'
+import colegioLogo from '../assets/teresa.jpg'
+import amaLogo from '../assets/ama.jpg'
+
 function About({ darkMode }) {
   const skills = [
     'React.js', 'JavaScript', 'HTML', 'CSS',
@@ -78,7 +82,7 @@ function About({ darkMode }) {
                             {/* Logo + Title side by side */}
                             <div className="flex items-center gap-4 mb-3">
                                 {/* Left — Company Logo */}
-                                <img src="/src/assets/logo-kcoop.png" alt="KCOOP logo" className="h-12 w-12 object-contain rounded-md"/>
+                                <img src={kcoopLogo} alt="KCOOP logo" className="h-12 w-12 object-contain rounded-md"/>
 
                                 {/* Right — Title + Company */}
                                 <div>
@@ -108,7 +112,7 @@ function About({ darkMode }) {
                             <p className="text-blue-500 text-sm font-semibold uppercase tracking-widest mb-3">2019 — 2023</p>
 
                             <div className="flex items-center gap-4 mb-3">
-                                <img src="/src/assets/teresa.jpg" alt="Colegio logo" className="h-12 w-12 object-contain rounded-md"/>
+                                <img src={colegioLogo} alt="Colegio logo" className="h-12 w-12 object-contain rounded-md"/>
                             <div>
                                 <h4 className="text-lg font-bold">Bachelor of Science in Information Technology</h4>
                                 <p className={`text-sm font-semibold ${darkMode ? 'text-orange-400' : 'text-orange-500'}`}>
@@ -124,7 +128,7 @@ function About({ darkMode }) {
                             <p className="text-blue-500 text-sm font-semibold uppercase tracking-widest mb-3">2016 — 2018</p>
 
                             <div className="flex items-center gap-4 mb-3">
-                                <img src="/src/assets/ama.jpg" alt="AMA logo" className="h-12 w-12 object-contain rounded-md"/>
+                                <img src={amaLogo} alt="AMA logo" className="h-12 w-12 object-contain rounded-md"/>
                             <div>
                                 <h4 className="text-lg font-bold">Senior High School (ICT) </h4>
                                 <p className={`text-sm font-semibold ${darkMode ? 'text-orange-400' : 'text-orange-500'}`}>

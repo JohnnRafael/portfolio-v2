@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import logo from '../assets/logo.png'
+
 
 function Navbar({ darkMode, setDarkMode }) {
   const [menuOpen, setMenuOpen] = useState(false)
@@ -11,7 +13,7 @@ function Navbar({ darkMode, setDarkMode }) {
 
         {/* Left — Logo */}
         <div className="flex items-center">
-          <img src="/src/assets/logo.png" alt="John's Forge" className="h-8 md:h-10 w-auto" />
+            <img src={logo} alt="John's Forge" className="h-8 md:h-10 w-auto" />
         </div>
 
         {/* Middle — Nav Links (desktop only) */}
