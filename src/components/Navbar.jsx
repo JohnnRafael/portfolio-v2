@@ -27,7 +27,7 @@ function Navbar({ darkMode, setDarkMode }) {
           {/* Dark/Light Toggle */}
           <div className="flex items-center gap-2">
             <span className="text-sm font-medium hidden md:block">
-              {darkMode ? '🌙 Dark' : '☀️ Light'}
+              {darkMode ? '🌙' : '☀️'}
             </span>
             <div
               onClick={() => setDarkMode(!darkMode)}

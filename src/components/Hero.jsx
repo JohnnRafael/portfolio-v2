@@ -11,18 +11,18 @@ function Hero({ darkMode }) {
         <p className="text-blue-500 font-semibold text-sm md:text-base tracking-widest uppercase mb-3">
           Welcome to my Portfolio
         </p>
-        <h1 className="text-4xl md:text-7xl font-bold mb-4 leading-tight">
-          Hi, I am <span className="text-blue-500">John!</span> 👋
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 leading-tight whitespace-nowrap">
+          Hi, I am <span className="text-blue-500">John Tugano!</span> 
         </h1>
         <h2 className="text-xl md:text-4xl font-semibold mb-4">
           I am a{' '}
           <TypeAnimation
             sequence={[
-              'Full-Stack Web Developer 💻',
+              'Full-Stack Web Developer',
               2000,
               '',
               500,
-              'Back-End Specialist ⚙️',
+              'Back-End Specialist',
               2000,
               '',
               500,
@@ -33,12 +33,13 @@ function Hero({ darkMode }) {
             className="text-blue-500"
           />
         </h2>
-        <p className={`text-sm md:text-lg leading-relaxed mb-8 max-w-lg ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+        <p className={`text-sm md:text-lg leading-relaxed indent-8 max-w-lg text-justify ${darkMode ? 'text-gray-400' : 'text-gray-600'}`}>
           I am a passionate Full-Stack Web Developer based in the Philippines,
           dedicated to building clean, fast, and modern web experiences.
           Through John's Forge, I craft digital solutions that help businesses
           grow and stand out online.
         </p>
+        <br></br>
         <div className="flex gap-4 flex-wrap">
           <a href="#projects" className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 md:px-8 rounded-full transition duration-300 text-sm md:text-base">
             View My Work
