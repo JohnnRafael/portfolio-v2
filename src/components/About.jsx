@@ -1,7 +1,7 @@
 import kcoopLogo from '../assets/logo-kcoop.png'
 import colegioLogo from '../assets/teresa.jpg'
 import amaLogo from '../assets/ama.jpg'
-import JohnResume from '../assets/John Tugano.pdf'
+import JohnResume from '../assets/John Tugano (1).pdf'
 
 function About({ darkMode }) {
   const skills = [
